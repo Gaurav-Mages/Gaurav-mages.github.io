@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGL_Build.loader.js";
+      var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL_Build.data.unityweb",
-        frameworkUrl: buildUrl + "/WebGL_Build.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebGL_Build.wasm.unityweb",
+        dataUrl: buildUrl + "/Build.data.unityweb",
+        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "OcbcHeritageArVr",
@@ -93,8 +93,10 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
         canvas.style.width = "100%";
         canvas.style.height = "95%";
+
       }
 
       loadingBar.style.display = "block";
